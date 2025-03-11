@@ -52,7 +52,7 @@ void executeCommand(char *commands[])
         }
         else
         {
-            int error = chdir("/home/shoaib");
+            int error = chdir("/home/siva/OS");
             if(error < 0)
             {
                 printf("Shell: Incorrect command\n"); 
